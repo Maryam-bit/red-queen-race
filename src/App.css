@@ -1,0 +1,134 @@
+body{
+  overflow: hidden;
+}
+
+.sky, .earth {
+  position: absolute;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+}
+
+.earth {
+background: grey;
+background-size: cover;
+  bottom: 0;
+}
+
+.sky {
+  background:lightblue;
+  top: 0;
+  left: 0;
+}
+
+/* sky */
+.sky div{
+  position: absolute;
+  right: -140%;
+  overflow: hidden;
+}
+
+.sky .cloud{
+  margin-right: 40rem;
+}
+.sky .sun{
+  position: absolute;
+  top: 0px;
+  right: 50px;
+}
+.sky .sun img{
+  width: 150px;
+}
+.sky .cloud1{
+  width: 280px;
+  margin-top: 50px;
+  float: left;
+}
+.sky .cloud2{
+  width: 230px;
+  margin-top: -20px;
+  margin-left: 50px;
+  padding-left: 300px;
+  padding-right: 50px;
+  display: inline;
+}
+.sky .cloud3{
+  width: 300px;
+  float: right;
+  padding-left: 200px;
+}
+
+.alice {
+  position: absolute;
+  top: 0; left: 40%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  width: 80%;
+  max-width: 450px;
+  z-index: 99;
+}
+
+.alice:before {
+    content: " ";
+    display: block;
+    padding-top: 87%;
+}
+
+.alice img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;  
+}
+
+
+.alicesprite {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* earth  */
+.earth div{
+  display: inline
+}
+
+div{
+  display: inline-block;
+}
+
+.tree, .bottle {
+  position: absolute;
+}
+
+.tree{
+  position: absolute;
+  top: 10%;
+  right: -120px;
+  width: 200px;
+}
+
+.bottle{
+  position: absolute;
+  bottom: 5px;
+  right: -1000px;
+  z-index: 99;
+}
+
+.tree img{
+  width: 200px;
+}
+
+.bottle .bottle1{
+  width: 120px;
+  padding-left: 50px;
+}
+
+.bottle .bottle2{
+  width: 150px;
+  padding-left: 450px;
+}
+
+.bottle .bottle3{
+  width: 100px;
+  padding-left: 250px;
+}
